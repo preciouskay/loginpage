@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: visible;
+}
+
+.header {
+    background-color: lightblue;
+    height: fit-content;
+}
+
+.logininput {
+    border-bottom: 1px solid rgb(148, 139, 139) !important;
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    outline: none;
+}
+
+.icon1 {
+    color: grey;
+}
+
+.logininput2 {
+    border-bottom: 1px solid rgb(251, 248, 248) !important;
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    outline: none;
+}
+
+.secondcol {
+    background-color: #3f51b5;
+}
+
+.logininput2::placeholder {
+    color: white;
+}
+
+.btn1 {
+    background-color: #2bbbad;
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    color: white;
+    text-align: center;
+    padding: 10 40px;
+}
+
+.btn2 {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin: auto;
+    color: white;
+    text-align: center;
+    border: 2px solid white;
+    padding: 10 40px;
+}
+
+.thirdcol {
+    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+}
+
+.forthcol {
+    background-color: white;
+    color: #ff5722;
+}
